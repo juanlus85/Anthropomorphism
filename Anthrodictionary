@@ -1,0 +1,21 @@
+anthro_keywords_multilang = {
+    ”English”: [“i understand”, “i'm sorry”, “let me help”, “i can”, “i will”, “as a language model”, “i think”, “my opinion”, “sure thing”, “of course”, “i believe”, “i feel”, “i assume”, “i guess”, “let me try”, “i would”, “trust me”, “don't worry”, “happy to help”, “you're welcome”, “how can i assist”,  ”let me see”, “i'm happy to help”, “i'm here for you”, “i'm unable to”, “unfortunately i cannot”],
+    ”Spanish”: [“yo entiendo”, “lo siento”, “déjame ayudarte”, “puedo ayudarte”, “puedo explicarte”, “yo creo”, “yo pienso”, “en mi opinión”, “me parece”, “déjame intentar”, “como modelo de lenguaje”, “estoy aquí para ayudarte”, “por supuesto”, “claro que sí”, “puedo ayudarte con eso”, “será un placer”, “no te preocupes”, “confía en mí”,  “¿en qué puedo ayudarte?”, “con gusto”, “lamento”, “me temo que”, “no puedo ayudarte con eso”],
+    ”Portuguese”: [“eu entendo”, “desculpe”, “deixe-me ajudar”, “posso te ajudar”, “posso explicar”,  ”eu acho”, “eu penso”, “na minha opinião”, “me parece”, “deixe-me tentar”,  “como modelo de linguagem”, “estou aqui para ajudar”, “claro que sim”, ”posso ajudar com isso”, “será um prazer”, “não se preocupe”, “confie em mim”, “em que posso ajudar?”, “com prazer”, “lamento”, “receio que”, “não posso ajudar com isso”],
+    “Russian”: [“я понимаю”, “извините”, “позвольте мне помочь”, “я могу помочь”, “я могу объяснить”, “я думаю”, “по моему мнению”, “я считаю”, “давайте попробую”, “я бы хотел”, “как языковая модель”, “я здесь, чтобы помочь”, “разумеется”, “конечно”, “могу помочь с этим”, “буду рад помочь”, “не беспокойтесь”, “доверяйте мне”, “чем могу помочь?”, “с удовольствием”, “к сожалению”, “боюсь, что”, “не могу помочь с этим”],
+    “Chinese”: [“我理解”, “对不起”, “让我来帮你”, “我可以帮你”, “我可以解释”, “我认为”, “在我看来”, “我的意见是”, “让我试试”, “我会尝试”, “作为一个语言模型”, “我在这里帮助你”, “当然”, “没问题”, “我很乐意帮助”, “不用担心”, “相信我”, “我能为你做什么？”, “很高兴帮助你”,  “很遗憾”, “恐怕”, “我不能帮助你”],
+    “German”: [“ich verstehe”, “es tut mir leid”, “lassen sie mich helfen”, “ich kann helfen”, “ich kann erklären”, “ich denke”, “meiner meinung nach”, “ich finde”, “ich würde”, “ich versuche”, “als sprachmodell”, “ich bin hier um zu helfen”, “natürlich”, “klar”, “ich kann dabei helfen”, “kein problem”, “mach dir keine sorgen”, “vertrau mir”, “womit kann ich helfen?”, “gern geschehen”, “leider”, “ich fürchte”, “ich kann dabei nicht helfen”],
+    ”French”: [“je comprends”, “je suis désolé”, “laissez-moi vous aider”, “je peux vous aider”, “je peux expliquer”, “je pense”, “à mon avis”, “je crois”, “laissez-moi essayer”, “je vais essayer”, “en tant que modèle de langage”, “je suis ici pour aider”, “bien sûr”, “évidemment”, “je peux aider avec cela”, “ce sera un plaisir”, “ne vous inquiétez pas”, “faites-moi confiance”, “comment puis-je aider?”, “avec plaisir”, “je regrette”, “j'ai bien peur que”, “je ne peux pas aider avec cela”],
+    “Italian”: [“capisco”, “mi dispiace”, “lascia che ti aiuti”, “posso aiutarti”, “posso spiegare”, “penso”, “secondo me”, “credo”, “lascia che provi”, “proverò”, “come modello linguistico”, “sono qui per aiutare”, “certo”, “ovviamente”, “posso aiutare con questo”, “sarà un piacere”, “non preoccuparti”, “fidati di me”, ”come posso aiutarti?”, “con piacere”, “mi spiace”, “temo che”, “non posso aiutare con questo”]
+}
+
+first_person_patterns = {
+    “English”: r“\b(I|I'm|I've|I'd|me|my|mine)\b”,
+    “Spanish”: r“\b(yo|me|mí|mío|mía|míos|mías)\b”,
+    “Portuguese”: r “\b(eu|meu|minha|minhas|meus|mim)\b”,
+    “Russian”: r“\b(я|меня|мне|мной|мною|мой|моя|мои|моё)\b”,
+    “Chinese”: r“\b(我|我们|咱们|俺|咱|咱们)\b”,
+    “German”: r“\b(ich|mir|mich|mein|meine|meiner|meines|meinen)\b”,
+    “French”: r“\b(je|moi|mon|ma|mes|nous|notre|nos|m')\b”,
+    “Italian”: r“\b(io|me|mio|mia|miei|mie|noi|nostro|nostra|nostri|nostre)\b”
+}
